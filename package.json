@@ -4,7 +4,8 @@
   "description": "A D3.js demo project",
   "main": "script.js",
   "scripts": {
-    "build": "echo 'No build required'", 
+    "build": "echo 'No build required'",
+    "deploy": "echo 'Deploying the static site...'",
     "start": "lite-server" 
   },
   "dependencies": {
