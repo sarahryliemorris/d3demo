@@ -2,14 +2,13 @@
   "name": "d3demo",
   "version": "1.0.0",
   "description": "A D3.js demo project",
-  "main": "index.js", // Change if you have a specific entry file
+  "main": "index.js", 
   "scripts": {
     "build": "echo 'no build required'",
-    "start": "lite-server" // OR use "http-server" if preferred
+    "start": "http-server" /
   },
   "dependencies": {
-    "d3": "^6.0.0", // Check your specific version
-    "lite-server": "^2.5.4" // Add this only if you're using lite-server
+    "d3": "^6.0.0", 
   }
 }
 
