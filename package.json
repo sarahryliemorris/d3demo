@@ -2,19 +2,19 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "clean": "rimraf src/.observablehq/cache", // Clean command remains unchanged
-    "start": "http-server", // To serve static files (index.html)
-    "build": "echo 'No build required'", // Placeholder since index.html is static
-    "dev": "http-server -o", // Start with open flag if using for development
-    "deploy": "echo 'Deploying the static site...'", // Placeholder for deployment
-    "install": "pip install -r requirements.txt" // Keep if you're using a Python backend
+    "clean": "rimraf src/.observablehq/cache", 
+    "start": "http-server", 
+    "build": "echo 'No build required'", 
+    "dev": "http-server -o", 
+    "deploy": "echo 'Deploying the static site...'", 
+    "install": "pip install -r requirements.txt" 
   },
   "dependencies": {
     "@observablehq/framework": "^1.11.0"
   },
   "devDependencies": {
     "rimraf": "^5.0.5",
-    "http-server": "^14.1.1" // Added http-server for serving files
+    "http-server": "^14.1.1" 
   },
   "engines": {
     "node": ">=18"
