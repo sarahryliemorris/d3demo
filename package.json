@@ -5,7 +5,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "build": "echo 'No build required'"
   },
   "repository": {
     "type": "git",
