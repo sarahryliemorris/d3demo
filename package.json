@@ -1,15 +1,31 @@
 {
   "name": "d3demo",
   "version": "1.0.0",
-  "description": "A D3.js demo project",
+  "private": true,
+  "description": "",
   "main": "script.js",
   "scripts": {
-    "build": "echo 'No build required'",
-    "deploy": "echo 'Deploying the static site...'",
-    "start": "lite-server" 
+    "start": "http-server",
+    "postinstall": "shx rm -rf web_modules/d3 && shx mkdir -p web_modules/d3/dist && shx cp -r \"node_modules/d3/{README.md,LICENSE,package.json}\" web_modules/d3 && shx cp -r \"node_modules/d3/dist/d3*.js\" web_modules/d3/dist && npm run compile",
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "format": "prettier --print-width 120 --write \"examples/*.(html|ts|css|json)\" index.html README.md package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahryliemorris/d3demo.git"
+  },
+  "author": "Sarah Morris",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/sarahryliemorris/d3demo/blob/main/README.md",
   "dependencies": {
-    "d3": "^7.0.0", 
-    "lite-server": "^2.5.4" 
+    "d3": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.3",
+    "shx": "^0.3.4",
+    "typescript": "^4.9.4"
   }
 }
