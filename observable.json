@@ -1,0 +1,8 @@
+{
+  "root": "src",
+  "files": {
+    "index": "index.html",
+    "script": "script.js",
+    "data": "data.json"
+  }
+}
