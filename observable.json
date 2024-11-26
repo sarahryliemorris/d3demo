@@ -1,8 +1,10 @@
 {
-  "root": "src",
-  "files": {
-    "index": "index.html",
-    "script": "script.js",
-    "data": "data.json"
-  }
+  "root": "src", 
+  "files": [
+    "index.html", 
+    "script.js",
+    "data.json",
+    "styles.css",
+    "paw-print.svg"
+  ]
 }
