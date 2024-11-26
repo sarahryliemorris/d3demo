@@ -1,6 +1,6 @@
 {
-  root: "src", 
-  files: [
+  "root": "src", 
+  "files": [
     "index.html", 
     "script.js",
     "data.json",
