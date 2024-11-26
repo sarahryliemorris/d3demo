@@ -5,7 +5,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "http-server",
+    "start": "http-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sarahryliemorris/d3demo.git"
