@@ -58,7 +58,6 @@
     "follow-redirects": "^1.15.9",
     "fresh": "^0.5.2",
     "fs-extra": "^3.0.1",
-    "fsevents": "^2.3.3",
     "get-caller-file": "^2.0.5",
     "glob-parent": "^5.1.2",
     "graceful-fs": "^4.2.11",
