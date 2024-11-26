@@ -6,7 +6,8 @@
   "main": "script.js",
   "scripts": {
     "start": "http-server",
-    "build": "echo 'No build required'"
+    "build": "echo 'No build required'",
+    "deploy": "echo 'Deploying the static site...'"
   },
   "repository": {
     "type": "git",
