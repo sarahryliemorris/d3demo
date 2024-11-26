@@ -1,0 +1,22 @@
+{
+  "name": "d3demo",
+  "short_name": "D3 Demo",
+  "version": "1.0.0",
+  "description": "A D3.js demo project",
+  "start_url": "./index.html",  
+  "display": "standalone",  
+  "background_color": "#ffffff",  
+  "theme_color": "#3A5EBA",  
+  "icons": [
+    {
+      "src": "path/to/icon.png",  
+      "sizes": "192x192",  
+      "type": "image/png"  
+    },
+    {
+      "src": "path/to/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
