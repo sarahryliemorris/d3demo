@@ -6,8 +6,7 @@
     "start": "http-server", 
     "build": "echo 'No build required'", 
     "dev": "http-server -o", 
-    "deploy": "echo 'Deploying the static site...'", 
-    "install": "pip install -r requirements.txt" 
+    "deploy": "echo 'Deploying the static site...'"
   },
   "dependencies": {
     "@observablehq/framework": "^1.11.0"
